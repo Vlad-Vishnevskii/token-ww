@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url('/fonts/better-vcr5-1.woff2') format('woff2'),
-    url('/fonts/better-vcr5-1.woff') format('woff');
+  src: url('fonts/better-vcr5-1.woff2') format('woff2'),
+    url('fonts/better-vcr5-1.woff') format('woff');
 }
 
 html {
