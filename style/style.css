@@ -13,7 +13,7 @@
   font-weight: 400;
 
   src: url('fonts/better-vcr5-1.woff2') format('woff2'),
-    url('fonts/better-vcr5-1.woff') format('woff');
+    url('fonts/better-vcr5-1.woff2') format('woff');
 }
 
 html {
@@ -222,7 +222,7 @@ img {
 .about2 {
   width: 100%;
   min-height: 983px;
-  background: url('/img/about-2-bg.png');
+  background: url('img/about-2-bg.png');
   background-repeat: no-repeat;
   background-size: 100% 983px;
 }
@@ -286,7 +286,7 @@ img {
 .screen {
   width: 100%;
   min-height: 983px;
-  background: url('/img/screen-bg.png');
+  background: url('img/screen-bg.png');
   background-repeat: no-repeat;
   background-size: 100% 983px;
 }
