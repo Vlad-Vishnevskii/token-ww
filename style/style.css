@@ -284,11 +284,10 @@ img {
 }
 
 .screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  min-height: 983px;
-  background: url('/img/screen-bg.png');
-  background-repeat: no-repeat;
-  background-size: 100% 983px;
 }
 
 .roadmap {
@@ -339,10 +338,22 @@ img {
   display: flex;
   gap: 37px;
   padding: 47px 55px;
+  padding-right: 14px;
   width: 655px;
   height: 290px;
   border-radius: 30px;
   background: rgba(221, 233, 244, 0.23);
+}
+
+.roadmap_frameTitle {
+  color: #fff;
+  text-align: left;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
 }
 
 .roadmap_img {
@@ -358,17 +369,17 @@ img {
 .roadmap_textBlock {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
 }
 
 .roadmap_text {
   color: #fff;
-  text-align: center;
-  font-size: 35px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 45px;
-  letter-spacing: 0.7px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
 }
 
 .roadmap_line {
@@ -461,6 +472,28 @@ img {
   list-style: none;
   margin-left: 73px;
   margin-bottom: 30px;
+}
+
+.footer_chat {
+  position: relative;
+}
+
+.footer_chat span {
+  position: absolute;
+  right: -100px;
+  bottom: -20px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: lowercase;
+}
+
+.footer_chat img {
+  position: absolute;
+  right: -33px;
+  bottom: -29px;
 }
 
 @media (max-width: 1920px) {
@@ -572,6 +605,11 @@ img {
 
   .team_item {
     width: 100%;
+  }
+
+  .screen img {
+    width: 85%;
+    height: auto;
   }
 }
 
@@ -699,11 +737,6 @@ img {
     line-height: 40px;
   }
 
-  .screen {
-    background-size: 100% 410px;
-    min-height: 410px;
-  }
-
   .roadmap {
     padding-top: 60px;
   }
@@ -713,5 +746,11 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
+  }
+
+  .roadmap_title {
+    margin-top: 0;
+    font-size: 45px;
+    margin-right: 0;
   }
 }
