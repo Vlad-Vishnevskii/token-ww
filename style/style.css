@@ -574,3 +574,144 @@ img {
     width: 100%;
   }
 }
+
+@media (max-width: 1023px) {
+  .main {
+    background: linear-gradient(
+      180deg,
+      #2e335f 0.02%,
+      #1d1d1f 4.52%,
+      #1d1d1f 46.74%
+    );
+    gap: 45px;
+  }
+
+  .header_block {
+    padding: 0 30px;
+    min-height: 437px;
+  }
+
+  .header_bg {
+    right: -222px;
+    top: -13px;
+    width: 700px;
+  }
+
+  .header_title {
+    margin-top: 30px;
+    font-size: 45px;
+  }
+
+  .header_description {
+    width: 415px;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .about1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about1_block {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  .about1_title {
+    margin-top: 15px;
+    font-size: 45px;
+    margin-right: 0;
+  }
+
+  .about1_description {
+    font-size: 26px;
+    line-height: 1.9;
+    margin-top: 50px;
+  }
+  .team {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 825px;
+  }
+
+  .team_block {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .team_title {
+    margin-top: 15px;
+    font-size: 45px;
+    margin-right: 0;
+  }
+
+  .team_list {
+    margin-top: 50px;
+  }
+
+  .team_item {
+    gap: 15px;
+  }
+
+  .team_item img {
+    width: 230px;
+    height: auto;
+  }
+
+  .team_name {
+    margin-top: 5px;
+    font-size: 26px;
+  }
+
+  .about2 {
+    min-height: 635px;
+    background-size: 100% 635px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .about2_block {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .about2_title {
+    margin-top: 45px;
+    font-size: 45px;
+    margin-right: 0;
+  }
+
+  .about2_description {
+    margin-top: 50px;
+    font-size: 26px;
+    line-height: 1.5;
+  }
+
+  .description {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+  }
+
+  .description_text {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .screen {
+    background-size: 100% 410px;
+    min-height: 410px;
+  }
+
+  .roadmap {
+    padding-top: 60px;
+  }
+
+  .roadmap_block {
+    max-width: 655px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+}
